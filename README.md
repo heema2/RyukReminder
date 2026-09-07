@@ -2,11 +2,11 @@
   <img src="docs/assets/logo.png" alt="Ryuk Reminder" width="128"/>
 </p>
 
-<h1 align="center">⏰ Ryuk Reminder</h1>
+<h1 align="center">Ryuk Reminder</h1>
 
 <p align="center">
   <strong>Offline-first Android reminder app</strong><br/>
-  One-time and recurring alarms, categories, snooze, and a dark Ryuk UI — even with the app closed.
+  Reminders, countdown timer, and alarms that fire even when the phone is locked — no account, no cloud, no ads.
 </p>
 
 <p align="center">
@@ -17,34 +17,56 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android%208%2B-3DDC84?logo=android&logoColor=white" alt="Android"/>
-  <img src="https://img.shields.io/badge/Version-1.4.1-E2554A" alt="Version"/>
+  <img src="https://img.shields.io/badge/Version-1.5.6-E2554A" alt="Version"/>
   <img src="https://img.shields.io/badge/Offline-No%20internet%20permission-2D2D2D" alt="Offline"/>
   <img src="https://img.shields.io/badge/Code-Proprietary-lightgrey" alt="Proprietary"/>
 </p>
 
 ---
 
-> **📌 Repository notice**  
+> **Repository notice**  
 > Public product page + official APK only. **Source code is not open source.**  
 > Developer hub: **[Ryuk-Dev](https://github.com/heema2/Ryuk-Dev)**
 
 ---
 
-## ✨ What is Ryuk Reminder?
+## What is Ryuk Reminder?
 
 Ryuk Reminder is a **Kotlin / Jetpack Compose** Android app for people who want alarms that actually fire — without an account, cloud, or ads.
 
 | | Feature |
 |---|---|
-| ⏰ | One-time and recurring reminders (daily, weekly, monthly, yearly, custom) |
-| 🏷️ | Categories, priorities, search, and filters |
-| 🔔 | Notifications with sound, vibration, **Complete** and **Snooze** |
-| 🌙 | Light, dark, and system themes |
-| 📴 | Works **fully offline** (no internet permission) |
+| Reminders | One-time and recurring (daily, weekly, monthly, yearly, custom) |
+| Organize | Categories, priorities, search, and filters |
+| Alerts | Sound, vibration, **Complete** / **Snooze**, and screen wake on lock screen |
+| Timer | Countdown timer with presets, Pause / Stop live notification, **Silence** when done |
+| Themes | Light, dark, and system |
+| Privacy | Works **fully offline** (no internet permission) |
 
 ---
 
-## 🖼️ Look & feel
+## What's new in v1.5.6
+
+- **Screen wake on alarm** — when a reminder or timer fires, the screen lights up even if the phone is locked / black
+- **Full-screen wake UI** over the lock screen with Complete / Silence
+- Alarms **reschedule after app updates**
+- Compact live-timer and Time's up notifications (no “show more” needed)
+- Modern timer setup with **+/− steppers** and quick presets (5m → 24h)
+- Compact reminder cards for denser home UI
+
+### Recent versions
+
+| Version | Highlights |
+|---------|------------|
+| **1.5.6** | Lock-screen wake, full-screen alert UI, post-update reschedule |
+| **1.5.5** | Collapsed notification layouts — Silence / Pause / Stop always visible |
+| **1.5.4** | Custom timer notifications (live countdown + Time's up / Silence) |
+| **1.5.3** | Reliable timer duration picker (no broken wheel) |
+| **1.5.0+** | Timer tab, running notification with Pause / Stop |
+
+---
+
+## Look & feel
 
 <p align="center">
   <img src="docs/assets/home.png" alt="Home" width="280"/>
@@ -54,9 +76,9 @@ Ryuk Reminder is a **Kotlin / Jetpack Compose** Android app for people who want 
 
 ---
 
-## 📥 Download
+## Download
 
-👉 **[Latest APK](https://github.com/heema2/RyukReminder/releases/latest/download/RyukReminder-v1.4.1-release.apk)**  
+**[Latest APK (v1.5.6)](https://github.com/heema2/RyukReminder/releases/latest/download/RyukReminder-v1.5.6-release.apk)**  
 All versions: **[Releases](https://github.com/heema2/RyukReminder/releases)**
 
 ### Install on your phone
@@ -72,15 +94,15 @@ Package: `com.ryuk.reminder` · Android 8.0+ (API 26)
 
 ---
 
-## 💬 Contact & copyright
+## Contact & copyright
 
 Built by **Heema Star (Ryuk)** under **Ryuk Developments**.
 
 | | |
 |---|---|
-| 🏠 Main hub | [github.com/heema2/Ryuk-Dev](https://github.com/heema2/Ryuk-Dev) |
-| 🐙 GitHub | [github.com/heema2](https://github.com/heema2) |
-| 💬 Discord | [discord.com/users/198843596558958601](https://discord.com/users/198843596558958601) |
+| Main hub | [github.com/heema2/Ryuk-Dev](https://github.com/heema2/Ryuk-Dev) |
+| GitHub | [github.com/heema2](https://github.com/heema2) |
+| Discord | [discord.com/users/198843596558958601](https://discord.com/users/198843596558958601) |
 
 © 2026 Ryuk. All rights reserved. Ryuk Reminder and the Ryuk brand, logo, and visual identity are property of Ryuk.  
 Unauthorized copying, redistribution, or rebranding is not permitted.
