@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Offline-first Android reminder app</strong><br/>
-  Reminders, countdown timer, and alarms that fire even when the phone is locked — no account, no cloud, no ads.
+  Reminders, birthdays, countdown timer, and alarms that fire even when the phone is locked — no account, no cloud, no ads.
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android%208%2B-3DDC84?logo=android&logoColor=white" alt="Android"/>
-  <img src="https://img.shields.io/badge/Version-1.5.6-E2554A" alt="Version"/>
+  <img src="https://img.shields.io/badge/Version-1.6.2-E2554A" alt="Version"/>
   <img src="https://img.shields.io/badge/Offline-No%20internet%20permission-2D2D2D" alt="Offline"/>
   <img src="https://img.shields.io/badge/Code-Proprietary-lightgrey" alt="Proprietary"/>
 </p>
@@ -37,32 +37,34 @@ Ryuk Reminder is a **Kotlin / Jetpack Compose** Android app for people who want 
 | | Feature |
 |---|---|
 | Reminders | One-time and recurring (daily, weekly, monthly, yearly, custom) |
+| Birthdays | Track birthdays with yearly eve + day alerts and a fixed Happy Birthday sound |
 | Organize | Categories, priorities, search, and filters |
 | Alerts | Sound, vibration, **Complete** / **Snooze**, and screen wake on lock screen |
 | Timer | Countdown timer with presets, Pause / Stop live notification, **Silence** when done |
+| Simulation | Preview reminder, timer, and birthday notifications from Settings |
 | Themes | Light, dark, and system |
 | Privacy | Works **fully offline** (no internet permission) |
 
 ---
 
-## What's new in v1.5.6
+## What's new in v1.6.2
 
-- **Screen wake on alarm** — when a reminder or timer fires, the screen lights up even if the phone is locked / black
-- **Full-screen wake UI** over the lock screen with Complete / Silence
-- Alarms **reschedule after app updates**
-- Compact live-timer and Time's up notifications (no “show more” needed)
-- Modern timer setup with **+/− steppers** and quick presets (5m → 24h)
-- Compact reminder cards for denser home UI
+- **Birthdays** — dedicated tab with joyful navy/teal UI, balloons & confetti, and yearly reminders (eve + day at 9:00)
+- Fixed **Happy Birthday** alarm sound (not changed from Settings)
+- Birthday month/day/year fields are **freely editable** (clear and retype); invalid dates block save with a clear error
+- **Simulation** screen in Settings — preview reminder / timer / birthday notifications and play alerts
+- Screen wake + full-screen lock-screen UI for birthday alerts (same reliability as reminders & timer)
 
 ### Recent versions
 
 | Version | Highlights |
 |---------|------------|
+| **1.6.2** | Editable birthday date fields + validation on save |
+| **1.6.1** | Simulation screen for notification previews |
+| **1.6.0** | Birthdays tab, yearly scheduling, dedicated alert sound & UI |
 | **1.5.6** | Lock-screen wake, full-screen alert UI, post-update reschedule |
 | **1.5.5** | Collapsed notification layouts — Silence / Pause / Stop always visible |
 | **1.5.4** | Custom timer notifications (live countdown + Time's up / Silence) |
-| **1.5.3** | Reliable timer duration picker (no broken wheel) |
-| **1.5.0+** | Timer tab, running notification with Pause / Stop |
 
 ---
 
@@ -78,12 +80,12 @@ Ryuk Reminder is a **Kotlin / Jetpack Compose** Android app for people who want 
 
 ## Download
 
-**[Latest APK (v1.5.6)](https://github.com/heema2/RyukReminder/releases/latest/download/RyukReminder-v1.5.6-release.apk)**  
+**[Latest APK (v1.6.2)](https://github.com/heema2/RyukReminder/releases/latest/download/RyukReminder-v1.6.2-release.apk)**  
 All versions: **[Releases](https://github.com/heema2/RyukReminder/releases)**
 
 ### Install on your phone
 
-1. Copy the APK to your Android phone.
+1. Copy the APK to your phone.
 2. Open the file and tap **Install** (allow *Install unknown apps* if asked).
 3. Open **Ryuk Reminder** and allow:
    - **Notifications**
