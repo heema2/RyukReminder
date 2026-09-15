@@ -17,7 +17,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android%208%2B-3DDC84?logo=android&logoColor=white" alt="Android"/>
-  <img src="https://img.shields.io/badge/Version-1.6.2-E2554A" alt="Version"/>
+  <img src="https://img.shields.io/badge/Version-2.0.1-E2554A" alt="Version"/>
+  <img src="https://img.shields.io/badge/Languages-EN%20%7C%20AR-2D2D2D" alt="Languages"/>
   <img src="https://img.shields.io/badge/Offline-No%20internet%20permission-2D2D2D" alt="Offline"/>
   <img src="https://img.shields.io/badge/Code-Proprietary-lightgrey" alt="Proprietary"/>
 </p>
@@ -37,7 +38,8 @@ Ryuk Reminder is a **Kotlin / Jetpack Compose** Android app for people who want 
 | | Feature |
 |---|---|
 | Reminders | One-time and recurring (daily, weekly, monthly, yearly, custom) |
-| Birthdays | Track birthdays with yearly eve + day alerts and a fixed Happy Birthday sound |
+| Birthdays | Eve alert (09:00) + **midnight** birthday alert (00:00 local) with Happy Birthday sound |
+| Languages | **English** and **Arabic** (RTL) — switch anytime in Settings |
 | Organize | Categories, priorities, search, and filters |
 | Alerts | Sound, vibration, **Complete** / **Snooze**, and screen wake on lock screen |
 | Timer | Countdown timer with presets, Pause / Stop live notification, **Silence** when done |
@@ -47,24 +49,35 @@ Ryuk Reminder is a **Kotlin / Jetpack Compose** Android app for people who want 
 
 ---
 
-## What's new in v1.6.2
+## What's new in v2.0.1
 
-- **Birthdays** — dedicated tab with joyful navy/teal UI, balloons & confetti, and yearly reminders (eve + day at 9:00)
-- Fixed **Happy Birthday** alarm sound (not changed from Settings)
-- Birthday month/day/year fields are **freely editable** (clear and retype); invalid dates block save with a clear error
-- **Simulation** screen in Settings — preview reminder / timer / birthday notifications and play alerts
-- Screen wake + full-screen lock-screen UI for birthday alerts (same reliability as reminders & timer)
+### Critical fix
+- **Birthday day notification now fires at local midnight (00:00:00)** — not 9:00 AM
+- Eve (“1 day left…”) alert still fires at **09:00** the day before
+
+### Localization
+- Full **English + Arabic** UI and notifications
+- Language picker in **Settings** (English default; العربية available)
+- Proper RTL layout when Arabic is selected
+
+### Design & branding
+- Modernized theme, cards, and visual polish (light + dark)
+- Refreshed launcher icon and splash screen
+- Clearer birthday status labels (Today / Tomorrow / days left)
+
+### Reliability
+- Safer delivery when multiple birthdays share the same midnight
+- Birthday triggers recomputed on launch / reboot / timezone change
 
 ### Recent versions
 
 | Version | Highlights |
 |---------|------------|
-| **1.6.2** | Editable birthday date fields + validation on save |
+| **2.0.1** | Midnight birthday alerts, EN/AR + RTL, UI refresh |
+| **1.6.2** | Editable birthday date fields + validation |
 | **1.6.1** | Simulation screen for notification previews |
-| **1.6.0** | Birthdays tab, yearly scheduling, dedicated alert sound & UI |
-| **1.5.6** | Lock-screen wake, full-screen alert UI, post-update reschedule |
-| **1.5.5** | Collapsed notification layouts — Silence / Pause / Stop always visible |
-| **1.5.4** | Custom timer notifications (live countdown + Time's up / Silence) |
+| **1.6.0** | Birthdays tab, yearly scheduling, celebration sound |
+| **1.5.6** | Lock-screen wake, full-screen alert UI |
 
 ---
 
@@ -80,7 +93,7 @@ Ryuk Reminder is a **Kotlin / Jetpack Compose** Android app for people who want 
 
 ## Download
 
-**[Latest APK (v1.6.2)](https://github.com/heema2/RyukReminder/releases/latest/download/RyukReminder-v1.6.2-release.apk)**  
+**[Latest APK (v2.0.1)](https://github.com/heema2/RyukReminder/releases/latest/download/RyukReminder-v2.0.1-release.apk)**  
 All versions: **[Releases](https://github.com/heema2/RyukReminder/releases)**
 
 ### Install on your phone
